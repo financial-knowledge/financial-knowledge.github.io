@@ -8,6 +8,8 @@ googleAnalytics = "XXX"
 pygmentsUseClasses = true
 pygmentsCodefences = true
 
+publishDir = "docs"
+
 [markup.highlight]
 codeFences = true
 guessSyntax = false
