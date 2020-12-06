@@ -1,6 +1,5 @@
 baseurl = "https://financial-knowledge.github.io/"
 title = "财经常识"
-theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "My Name"
 disqusShortname = "XXX"
@@ -70,11 +69,11 @@ fathomSiteId = ""
 post = "/articles/:filename/"
 
 [[menu.main]]
-name = "Blog"
+name = "Articles"
 url = "/"
 weight = 1
 
 [[menu.main]]
 name = "About"
 url = "/page/about/"
-weight = 4
+weight = 2
