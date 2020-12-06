@@ -1,64 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 财经常识</title>
-    <link>https://financial-knowledge.github.io/tags/</link>
-    <description>Recent content in Tags on 财经常识</description>
+    <title>Tags on 金融词条</title>
+    <link>https://jinrongcitiao.github.io/tags/</link>
+    <description>Recent content in Tags on 金融词条</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>My Name</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 02:13:50 +0000</lastBuildDate><atom:link href="https://financial-knowledge.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>金融词条</copyright>
+    <lastBuildDate>Sun, 06 Dec 2020 02:13:50 +0000</lastBuildDate><atom:link href="https://jinrongcitiao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>development</title>
-      <link>https://financial-knowledge.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      <title>F10</title>
+      <link>https://jinrongcitiao.github.io/tags/f10/</link>
+      <pubDate>Sun, 06 Dec 2020 02:13:50 +0000</pubDate>
       
-      <guid>https://financial-knowledge.github.io/tags/development/</guid>
+      <guid>https://jinrongcitiao.github.io/tags/f10/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://financial-knowledge.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      <title>FA</title>
+      <link>https://jinrongcitiao.github.io/tags/fa/</link>
+      <pubDate>Sun, 06 Dec 2020 02:13:50 +0000</pubDate>
       
-      <guid>https://financial-knowledge.github.io/tags/go/</guid>
+      <guid>https://jinrongcitiao.github.io/tags/fa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>https://financial-knowledge.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      <title>fundamental-analysis</title>
+      <link>https://jinrongcitiao.github.io/tags/fundamental-analysis/</link>
+      <pubDate>Sun, 06 Dec 2020 02:13:50 +0000</pubDate>
       
-      <guid>https://financial-knowledge.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>https://financial-knowledge.github.io/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>https://financial-knowledge.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://financial-knowledge.github.io/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>https://financial-knowledge.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://financial-knowledge.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://financial-knowledge.github.io/tags/hugo/</guid>
+      <guid>https://jinrongcitiao.github.io/tags/fundamental-analysis/</guid>
       <description></description>
     </item>
     

@@ -1,7 +1,7 @@
-baseurl = "https://financial-knowledge.github.io/"
-title = "金融知识库"
+baseurl = "https://jinrongcitiao.github.io/"
+title = "金融词条"
 languageCode = "en-us"
-copyright = "My Name"
+copyright = "金融词条"
 disqusShortname = "XXX"
 googleAnalytics = "XXX"
 pygmentsUseClasses = true
@@ -28,7 +28,7 @@ respectDoNotTrack = true
 useSessionStorage = false
 
 [author]
-name = "My Name"
+name = "金融词条"
 profile = ""
 
 [taxonomies]
@@ -69,11 +69,11 @@ fathomSiteId = ""
 post = "/articles/:filename/"
 
 [[menu.main]]
-name = "Articles"
+name = "词条列表"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "关于"
 url = "/page/about/"
 weight = 2

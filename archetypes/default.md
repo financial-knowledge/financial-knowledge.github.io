@@ -1,8 +1,8 @@
 ---
-title = "{{ humanize .Name | title }}"
-description = ""
-date = {{ .Date }}
-tags = []
-draft = true
+title: "{{ humanize .Name | title }}"
+description: ""
+date: {{ .Date }}
+tags: []
+draft: true
 ---
 

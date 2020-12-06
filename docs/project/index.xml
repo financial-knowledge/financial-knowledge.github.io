@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on 财经常识</title>
-    <link>https://financial-knowledge.github.io/project/</link>
-    <description>Recent content in Projects on 财经常识</description>
+    <title>Projects on 金融词条</title>
+    <link>https://jinrongcitiao.github.io/project/</link>
+    <description>Recent content in Projects on 金融词条</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>My Name</copyright>
-    <lastBuildDate>Tue, 18 Nov 2014 02:13:50 +0000</lastBuildDate><atom:link href="https://financial-knowledge.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>金融词条</copyright>
+    <lastBuildDate>Tue, 18 Nov 2014 02:13:50 +0000</lastBuildDate><atom:link href="https://jinrongcitiao.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My awesome project</title>
-      <link>https://financial-knowledge.github.io/project/my-awesome-project/</link>
+      <link>https://jinrongcitiao.github.io/project/my-awesome-project/</link>
       <pubDate>Tue, 18 Nov 2014 02:13:50 +0000</pubDate>
       
-      <guid>https://financial-knowledge.github.io/project/my-awesome-project/</guid>
+      <guid>https://jinrongcitiao.github.io/project/my-awesome-project/</guid>
       <description>About project Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
     </item>
     
