@@ -1,4 +1,5 @@
-name: deploy gh-pages
+name: Auto deploy to gh-pages
+
 on:
   push:
     branches:
@@ -6,38 +7,24 @@ on:
 jobs:
   build:
     name: Build and deploy gh-pages
-    env:
-      MY_SECRET   : ${{secrets.COMMIT}}
-      USER_NAME   : githubaction
-      USER_EMAIL  : githubaction@fake.com
-      PUBLISH_DIR : ./dist
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [10.x]
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install
-      run: |
-        npm install
-    - name: npm run build
-      run: |
-        npm run gulp m
-        npm run build
-    - name: Commit files
-      run: |
-        cd $PUBLISH_DIR
-        git init
-        git config --local user.name $USER_NAME
-        git config --local user.email $USER_EMAIL
-        git status
-        git remote add origin https://github.com/jinrongcitiao/jinrongcitiao.github.io.git
-        git checkout -b gh-pages
-        git add --all
-        git commit -m "deploy to Github pages"
-        git push origin gh-pages -f
-        echo 🤘 deploy gh-pages complete.
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: cleanup files of public site
+        working-directory: ./public
+        shell: bash
+        run: find . -type f -name '*.min.*' -exec rm -f {} \;
+
+      - name: deploy and publish updates
+        working-directory: ./public
+        run: |
+          git config --local user.email "jinrongcitiao@github.com"
+          git config --local user.name "GitHub Action"
+          git add . -A
+          git commit -m "[chore] Auto publish"
+          git push origin
