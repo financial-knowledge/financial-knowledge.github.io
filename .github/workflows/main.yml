@@ -9,22 +9,21 @@ jobs:
     name: Build and deploy gh-pages
     runs-on: ubuntu-latest
     steps:
-      - name: setup hugo
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: latest
-          extended: true
+          hugo-version: '0.75.1'
 
-      - name: cleanup files of public site
-        working-directory: ./public
-        shell: bash
-        run: rm -rf ./*;
+      - name: Build
+        run: hugo --minify
 
-      - name: deploy and publish updates
-        working-directory: ./public
-        run: |
-          git config --local user.email "jinrongcitiao@github.com"
-          git config --local user.name "GitHub Action"
-          git add . -A
-          git commit -m "[chore] Auto publish"
-          git push origin
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.COMMIT }}
+          publish_dir: ./public
