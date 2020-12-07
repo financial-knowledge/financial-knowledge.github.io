@@ -124,16 +124,16 @@ Weighted Average Cost of Capital
 
 The list can seem quite long and intimidating. However, after a while, an investor will learn what works best and develop a set of preferred analysis techniques. There are many different valuation metrics and much depends on the industry and stage of the economic cycle. A complete financial model can be built to forecast future revenues, expenses and profits or an investor can rely on the forecast of other analysts and apply various multiples to arrive at a valuation. Some of the more popular ratios are found by dividing the stock price by a key value driver.
 
-| Ratio | Company Type |
+| 比例 | 企业类型 |
 | --- | --- |
-| Price/Book Value | Oil |
-| Price/Earnings | Retail |
-| Price/Earnings/Growth | Networking |
+| Price/Book Value | 石油 |
+| Price/Earnings | 零售 |
+| Price/Earnings/Growth | 信息，网络 |
 | Price/Sales | B2B |
-| Price/Subscribers | ISP or Cable Company |
-| Price/Lines | Telecom |
+| Price/Subscribers | ISP或有线电视公司 |
+| Price/Lines | 电信服务 |
 | Price/Page Views | Website |
-| Price/Promises | Biotech |
+| Price/Promises | 生物科技 |
 
 This methodology assumes that a company will sell at a specific multiple of its earnings, revenues or growth. An investor may rank companies based on these valuation ratios. Those at the high end may be considered overvalued, while those at the low end may constitute relatively good value.
 
