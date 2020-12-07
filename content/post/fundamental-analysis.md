@@ -20,7 +20,7 @@ Fundamental analysis is the examination of the underlying forces that affect the
 
 Even though there is no one clear-cut method, a breakdown is presented below in the order an investor might proceed. This method employs a top-down approach that starts with the overall economy and then works down from industry groups to specific companies. As part of the analyzing process, it is important to remember that all information is relative. Industry groups are compared against other industry groups and companies against other companies. Usually, companies are compared with others in the same group. For example, a telecom operator (Verizon) would be compared to another telecom operator (SBC Corp), not to an oil company (ChevronTexaco).
 
-### Economic Forecast
+### 经济预测
 
 First and foremost in a top-down approach would be an overall evaluation of the general economy. The economy is like the tide and the various industry groups and individual companies are like boats. When the economy expands, most industry groups and companies benefit and grow. When the economy declines, most sectors and companies usually suffer. Many economists link economic expansion and contraction to the level of interest rates. Interest rates are seen as a leading indicator for the stock market as well. Below is a chart of the S&P 500 and the yield on the 10-year note over the last 30 years. Although not exact, a correlation between stock prices and interest rates can be seen. Once a scenario for the overall economy has been developed, an investor can break down the economy into its various industry groups.
 
